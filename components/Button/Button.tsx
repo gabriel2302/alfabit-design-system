@@ -5,7 +5,6 @@ export type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'tertiary';
 } & React.ButtonHTMLAttributes<HTMLButtonElement>
 
-
 function getVariant(variant: ButtonProps['variant'], disabled: ButtonProps['disabled']) {
   switch (variant) {
     case 'primary':
@@ -13,9 +12,8 @@ function getVariant(variant: ButtonProps['variant'], disabled: ButtonProps['disa
     case 'secondary':
       return disabled ? 'bg-disabled text-disabled' : 'bg-quaternary text-primary'
     case 'tertiary':
-      return disabled ? '' : ''
     default:
-      return disabled ? '' : ''
+      return disabled ? 'text-disabled' : 'text-primary'
   }
 }
 
