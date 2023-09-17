@@ -35,6 +35,8 @@
     --text-primary: 24, 24, 24;
     --text-secondary: 92, 92, 92;
     --text-tertiary: 116, 116, 116;
+    --text-success: 58, 201, 34;
+    --text-error: 255, 48, 48;
     --text-disabled: 138, 138, 138;
 
      /* Screens */
