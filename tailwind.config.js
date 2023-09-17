@@ -56,6 +56,7 @@ module.exports = {
         icon: 'rgba(var(--icon), <alpha-value>)',
         outline: 'rgba(var(--outline), <alpha-value>)',
         divider: 'rgba(var(--divider), <alpha-value>)',
+        disabled: 'rgba(var(--text-disabled), <alpha-value>)',
       },
       backgroundColor: {
         light: 'rgba(var(--bg-light), <alpha-value>)',
@@ -68,7 +69,6 @@ module.exports = {
           secondary: 'rgba(var(--text-secondary), <alpha-value>)',
           tertiary: 'rgba(var(--text-tertiary), <alpha-value>)',
         },
-        disabled: 'rgba(var(--text-disabled), <alpha-value>)',
       },
       boxShadow: {
         sm: 'var(--shadow-sm)',

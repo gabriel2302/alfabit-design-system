@@ -1,0 +1,37 @@
+import { Meta, Canvas, Primary, Controls }  from '@storybook/blocks'
+
+import * as Story from './Input.stories.ts'
+
+<Meta of={Story} />
+
+# Input text
+
+This is a input component, used by user to get a text
+
+### Primary 
+<Canvas of={Story.Primary} />
+
+### Primary Disabled
+<Canvas of={Story.PrimaryDisabled} />
+
+### Multiline
+<Canvas of={Story.Multiline} />
+
+### Multiline Disabled
+<Canvas of={Story.MultilineDisabled} />
+
+### Primary Label
+<Canvas of={Story.PrimaryLabel} />
+
+### Primary Label Disabled
+<Canvas of={Story.PrimaryLabelDisabled} />
+
+### Multiline Label
+<Canvas of={Story.MultilineLabel} />
+
+### Multiline Label Disabled
+<Canvas of={Story.MultilineLabelDisabled} />
+
+### Interactive Documentation
+<Primary />
+<Controls />
