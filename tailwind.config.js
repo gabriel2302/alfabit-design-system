@@ -44,6 +44,9 @@ module.exports = {
       nd: 'var(--text-nd)',
       lg: 'var(--text-lg)',
       xl: 'var(--text-xl)',
+      tmd: "var(--title-md)",
+      tlg: "var(--title-lg)",
+      txl: "var(--title-xl)",
     },
     extend: {
       colors: {
